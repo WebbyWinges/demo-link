@@ -1,0 +1,22 @@
+.userPhoto {
+    width: 100px;
+    height: 100px;
+}
+.users{
+    color: rgb(48, 188, 9);
+}
+.selectedPage{
+    font-weight: bold;
+    margin: 2px 2px;
+    font-size: 20px;
+}
+.pages{
+ cursor: pointer;
+}
+.preloader img{
+    border: none;
+}
+.pluse img{
+    border: 1px solid black;
+    border-radius: 5px;
+}

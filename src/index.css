@@ -1,0 +1,32 @@
+/* .btn1{
+    padding: 10px;
+    background-color: blueviolet;
+    border: none;
+    margin-left:20px ;
+    cursor: pointer;
+}
+.btn1:hover{
+    opacity: 0.9;
+} */
+.good{
+    background-color: greenyellow;
+}
+.bad {
+    background-color: red;
+}
+.app-wrapper{
+    display: grid;
+    width: 1200px;
+ 
+    grid-template-areas:
+   "h h"
+   "n c";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 8px;
+    justify-content: start;
+}
+.app-wrapper-content {
+    grid-area: c;
+    background-color: rgb(15, 49, 113);
+}

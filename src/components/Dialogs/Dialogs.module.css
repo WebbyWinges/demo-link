@@ -1,0 +1,67 @@
+.dialogsy {
+    display: flex;
+}
+.dialogs{
+     padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dialogsItems{
+    color: aliceblue;
+}
+
+.dialogsItems .active{
+  color: chartreuse;
+}
+
+.messages{
+    color: rgb(255, 255, 255);
+}
+img {
+    width: 25px;
+    border: 0.5px solid rgba(75, 197, 0, 0.5);
+    border-radius: 40px;
+    padding: 1px;
+}
+.dialogItem {
+    display: flex;
+    align-items: center;
+}
+.dialogItem a{
+    text-decoration: none;
+    padding-left: 5px;
+}
+.message{
+padding: 15px;
+}
+
+.dialog{
+ padding: 10px;   
+}
+.offOn{
+  background: #456BD9;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  height: 5em;
+  width: 5em;
+}
+.textBar{
+   display: flex;
+   align-items: flex-end;
+   margin: 0px -5px;
+}
+.text{
+    height: 30px;
+    padding-left: 2px;
+    border: 1px solid rgba(7, 233, 56, 0.7);
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+.btn{
+    border: none;
+    background: #01ff019c;
+    border-radius: 2px;
+}
+
+

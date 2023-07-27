@@ -1,0 +1,28 @@
+.nav {
+grid-area: n;
+background-color: rgb(227, 146, 40);
+padding:20px;
+/* align-self: start; */
+}
+.item{
+    padding-top: 5px;
+}
+
+.item a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.item a.activeLink{
+    color: rgb(0, 136, 255)
+}
+
+.frier{
+    display: flex;
+}
+.named{
+    text-align: center;
+}
+.named img{
+    width: 40px;
+}
